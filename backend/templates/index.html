@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOXBYTE - News That Never Sleeps</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">VOXBYTE</a>
+        <div class="nav-links">
+            <a href="#headlines">Headlines</a>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <iframe src="https://my.spline.design/worldplanet-H7cSLwBO9Ycwn4EsEBM7nnC0/" frameborder="0"></iframe>
+        <div class="hero-content">
+            <h1>NEWS THAT NEVER SLEEPS.<br>POWERED BY AI.</h1>
+            <div class="hero-bottom-content">
+                <h2 class="subheading">Stay ahead of the headlines with AI-powered reporting that never stops.</h2>
+                <a href="#headlines" class="cta-button">WATCH NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="headlines" class="headlines-section">
+        <div class="section-title">
+            <h2>HEADLINES +</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="last-updated">Last updated: <span id="update-time"></span></div>
+
+        <div class="headlines-layout">
+            <div class="video-container">
+                <!-- Video will be placed here -->
+                <video controls width="100%">
+                    <source src="{{ url_for('static', filename='video/anchor.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="news-container" id="news-container">
+                <!-- News articles will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 VOXBYTE. All rights reserved.</p>
+            <p>News That Never Sleeps. Powered by AI.</p>
+        </div>
+    </footer>
+</body>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>
