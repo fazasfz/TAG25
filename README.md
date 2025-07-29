@@ -63,12 +63,14 @@ python app.py
 Open your browser at: http://localhost:5000
 ---
 👥 Team Roles
+
 👤 Nabira Salman — Web scraping, TTS automation, video generation
 
 👤 Syeda Fatima Zahra (You) — Backend API integration, Gemini scripting, Flask server setup
 
 👤 Amna Maryam Fatima — TTS module & frontend animation
 
+---
 🏆 Achievements
 🏅 2nd Place (Runner-Up) at [TAG25 Nust]
 Built in under 48 hours and delivered a fully functional AI news broadcasting solution.
