@@ -72,5 +72,6 @@ Open your browser at: http://localhost:5000
 
 ---
 🏆 Achievements
+
 🏅 2nd Place (Runner-Up) at [TAG25 Nust]
 Built in under 48 hours and delivered a fully functional AI news broadcasting solution.
