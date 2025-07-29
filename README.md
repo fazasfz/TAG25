@@ -61,6 +61,7 @@ genai.configure(api_key="YOUR_API_KEY")
 python app.py
 ```
 Open your browser at: http://localhost:5000
+---
 👥 Team Roles
 👤 Nabira Salman — Web scraping, TTS automation, video generation
 
