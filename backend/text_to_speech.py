@@ -1,7 +1,7 @@
 # backend/text_to_speech.py
 import requests
 
-API_KEY = "sk_5bd507055c6787ef1ab8890d8878ec6b59064b604a52b362"
+API_KEY = ""
 VOICE_ID = "VzCzzZS0ff2iL6Izl8fR"
 
 def generate_voiceover():
