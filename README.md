@@ -52,10 +52,12 @@ cd voxbyte
 pip install -r requirements.txt
 ```
 ### 3. Add your Gemini API Key
-In app.py:
+In app.py,script_generator.py, text_to_speech.py:
 ```bash
 genai.configure(api_key="YOUR_API_KEY")
 ```
+In generate_video.py
+add the API Token
 ### 4. Run the app
 ```bash
 python app.py
