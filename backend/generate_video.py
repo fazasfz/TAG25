@@ -4,7 +4,7 @@ import base64
 import time
 
 AVATAR_ID = "amy"  # You can change this to any D-ID public avatar name.
-API_TOKEN = "YW1uYW1qYWQ3MUBnbWFpbC5jb20:qGrBpYxpKBiRM2Op6tdWi"
+API_TOKEN = ""
 
 def generate_avatar_video():
     with open("final_audio.mp3", "rb") as f:
